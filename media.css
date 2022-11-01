@@ -1,0 +1,336 @@
+/* home */
+@media screen  and (min-width : 0px) and (max-width:599px){
+    .home .container
+    {
+        width: 100%;
+    }
+    .home .header .logo 
+    {
+        width: 100%;
+    }
+    .home .header .nav-bar
+    {
+        width: 100%;
+    }
+    .home .header .nav-bar .inner 
+    {
+        width: 100%;
+    }
+    .home .header .nav-bar ul li 
+    {
+        padding: 8px;
+    } 
+    .about .about-profile {
+        width: 90%;
+    }
+}
+@media screen and (min-width : 600px)  and (max-width:767px){
+    .home .container
+    {
+        width: 100%;
+    }
+    .home .header .logo 
+    {
+        width: 100%;
+    }
+    .home .header .nav-bar
+    {
+        width: 100%;
+    }
+    .home .header .nav-bar .inner 
+    {
+        width: 100%;
+    }
+    .home .header .nav-bar .inner ul li 
+    {
+        padding: 16px;
+    }
+    .home .header .logo
+    {
+        padding: 16px;
+    }
+    .home .header .logo a
+    {
+        font-size: 18px;
+    }    
+}
+@media screen  and (min-width : 768px) and (max-width:991px){
+    .home .container
+    {
+        width: 100%;
+    }
+    .home .header .nav-bar .inner 
+    {
+        width: 100%;
+    }
+    .home .header .nav-bar .inner ul li 
+    {
+        padding: 10px;
+    }
+    .home .header .logo
+    {
+        padding: 5px;
+    }
+}
+@media screen  and (min-width : 992px) and (max-width:1199px){
+    .home .container
+    {
+        width: 100%;
+    }
+    .home .header .nav-bar .inner 
+    {
+        width: 100%;
+    } 
+}
+@media screen  and (min-width : 1200px) and (max-width:1365px){
+    .home .header .nav-bar .inner 
+    {
+        width: 100%;
+    } 
+    .home .header .nav-bar .inner ul li.float-left
+    {
+        padding: 20px 23px;
+    }
+}
+/* about-sec */
+@media screen  and (min-width : 0px) and (max-width:599px){
+    .about
+    {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:768px) {
+    .about .profile
+    {
+        width: 90%;
+        padding-bottom: 20px ;
+        text-align: center;
+    }
+    .about
+    {
+        padding: 10px 0px 50px;
+    }
+    .about .profile-desc
+    {
+        width: 100%;
+    }
+    .about .profile-border
+    {
+        border: none;
+       
+    }
+    .about .profile-border
+    {
+        width: 100%;
+    }
+    .about .profile-pic img 
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .about .social-media
+    {
+        width: 100%;
+    }
+    .about .profile-desc h2
+    {
+        padding-top: 50px;
+    }
+    .about .profile-desc h2::after
+    {
+        content: '';
+        width: 3px;
+        height:25%;
+        background-color: #FF305B;
+        position: absolute;
+        left:0;
+        top:60%;
+    }
+    .about .profile-desc .profile-about ul
+    {
+        padding: 5px ;
+    }
+}
+/* service*/
+@media screen  and (min-width : 0px) and (max-width:599px){
+    .service .col-1, .col-2, .col-3, .col-4
+    {
+        width: 100%;
+    }   
+}
+@media screen and (min-width:600px) and (max-width:991px){
+    .service .col-1, .col-2, .col-3, .col-4
+    {
+        width: 50%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .service .container
+    {
+        width: 100%;
+    }
+    .service .col-1, .col-2, .col-3, .col-4
+    {
+        width: 25%;
+        padding: 3px;
+    }
+}
+/* activity */
+@media screen and (max-width:767px) {
+    .activity .box-1, .box-2, .box-3, .box-4
+    {
+        width: 100%;
+        margin: auto;
+    }
+}
+/* contact */
+@media screen and (max-width:767px) {
+    .contact .container
+    {
+        width: 90%;
+    }
+    .contact  .personal-data .user-name,.e-mail
+    {
+        width: 100%;
+    }
+    .contact  .personal-data .user-name  input
+    {
+        width: 100%;
+    }
+    .contact  .personal-data .e-mail  input
+    {
+        width: 100%;
+    }
+}
+@media screen and(min-width:768px) and (max-width:991px) {
+    
+    .contact .container
+    {
+        width: 90%;
+    }
+    .contact  .personal-data .user-name,.e-mail
+    {
+        width: 50%;
+    }
+    .contact  .personal-data .user-name  input
+    {
+        width: 100%;
+    }
+    .contact  .personal-data .e-mail  input
+    {
+        width: 100%;
+    }
+}
+/* testimonial */
+@media screen and (max-width:767px) {
+    .testimonial .container
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+    .testimonial .client-feedback
+    {
+        width: 100%;
+        padding: 5px;
+    }
+    .testimonial .client-feedback .feedback
+    {
+        width: 100%;
+    }
+    .testimonial .client-feedback .pic
+    {
+        width: 20%;
+        margin: auto;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1199px) {
+
+    .testimonial .container
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+    .testimonial .client-feedback
+    {
+        width: 100%;
+        padding: 5px;
+    }
+    .testimonial .client-feedback .feedback
+    {
+        width: 60%;
+    }
+   
+}
+/* blog */
+@media screen and (max-width:767px) {
+    .blog .blog-post,.blog-video
+    {
+        width: 90%;
+        text-align: center;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .blog .container
+    {
+        width: 100%;
+        padding: 20px;
+    }
+    .blog .blog-post,.blog-video
+    {
+        padding: 5px;
+    }
+}
+/* portfolio */
+@media screen and (max-width:767px) {
+
+    .portfolio .portfolio-pic
+    {
+        width: 100%;
+        margin: auto;
+    }
+    .portfolio img
+    {
+        width: 100%;
+    }
+    .portfolio .pic
+    {
+        margin: auto;
+    }
+    .portfolio ul
+    {
+        width: 80%;
+        
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px)  {
+    .portfolio .portfolio-pic
+    {
+        width: 50%;
+        padding: 15px;
+    }
+    .portfolio img 
+    {
+        width: 100%;
+    }
+    
+    .portfolio ul
+    {
+        width: 50%; 
+    }
+}
+@media screen and (min-width:992px) and (max-width:1300px)  {
+    .portfolio .portfolio-pic
+    {
+        width: 33.333%;
+        padding: 10px 30px;
+    }
+    .portfolio ul
+    {
+        width: 40%; 
+    }
+}
+
+
+
